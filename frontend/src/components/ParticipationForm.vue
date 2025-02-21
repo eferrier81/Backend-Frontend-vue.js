@@ -87,7 +87,7 @@ async function enregistrerParticipation() {
       personne: personneHref,
       projet: projetHref,
       role: data.formulaire.role,
-      pourcentage: data.formulaire.pourcentage / 100 // ✅ Format correct
+      pourcentage: data.formulaire.pourcentage
     }),
     headers: {
       "Content-Type": "application/json",
